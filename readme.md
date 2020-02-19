@@ -35,6 +35,8 @@ open log file from the installation
 
 wait for the setup to be completed. Visit your gitlab-ce instance unter https://gitlab.example.com 
 - `${var.subdomain}.${data.aws_route53_zone.hostedzone.name}`]
+ create your admin password on the first visit
+ ![](img/login.png)
 
 # Version history
 - 1.0

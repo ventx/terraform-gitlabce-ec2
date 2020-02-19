@@ -17,7 +17,7 @@ sudo apt install ca-certificates -y
 echo "=======| 2. Installing GitLab"
 curl -LO https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh
 sudo bash script.deb.sh
-sudo EXTERNAL_URL="${subdomain}.${data.aws_route53_zone.hostedzone.name}" apt-get install gitlab-ce
+sudo EXTERNAL_URL="${subdomain}.${domain}" apt-get install gitlab-ce
 sudo apt install 
 
 echo "=======| 3. Firewall settings"
