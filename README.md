@@ -1,6 +1,7 @@
 ![](img/logo.png)
 # Simple gitlab-ce on a single EC2 instance
 
+
 ### Requirements
 - EC2 Key pair (ssh key)
 - AWS HostedZone and 1 TLD
